@@ -38,6 +38,8 @@ android {
         signingConfig signingConfigs.debug_key
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+
+        buildConfigField "String", "BASE_URL", '"https://api.htvonline.com.vn"'
     }
 
     buildTypes {
